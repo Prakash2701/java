@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1> hello</h1>
+</head>
+
+<body>
+    <button onclick="page()">button</button>
+    <div id="div1">
+
+    </div>
+    <script>
+        let p = 0;
+
+        function page() {
+            p++
+            let r = " <p id = 'num" + p + "'> </p> ";
+            document.getElementById("div1").innerHTML = document.getElementById("div1").innerHTML + r;
+
+        }
+    </script>
+</body>
+
+</html>
